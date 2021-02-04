@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "My portfolio",
+    siteUrl: "https://risurina.github.io"
   },
   pathPrefix: "",
   plugins: [
