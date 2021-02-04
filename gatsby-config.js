@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     title: "My portfolio",
   },
+  pathPrefix: "",
   plugins: [
     "gatsby-plugin-postcss",
     {
