@@ -23,7 +23,7 @@ module.exports = {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "images",
-        path: "./src/images/",
+        path: "./src/assets/images/",
       },
       __key: "images",
     },
@@ -31,14 +31,24 @@ module.exports = {
       resolve: `gatsby-plugin-alias-imports`,
       options: {
         alias: {
-          "components": path.resolve(__dirname, 'src/components')
+          "assets": path.resolve(__dirname, 'src/assets'),
+          "components": path.resolve(__dirname, 'src/components'),
+          "pages": path.resolve(__dirname, 'src/pages'),
+          "styles": path.resolve(__dirname, 'src/styles')
         },
         extensions: [
           "js",
           "tsx",
         ],
       }
-    }
-
+    },
+    {
+      resolve: `gatsby-plugin-typescript`,
+      options: {
+        isTSX: true, // defaults to false
+        jsxPragma: `tsx`, // defaults to "React"
+        allExtensions: true, // defaults to false
+      },
+    },
   ],
 };
