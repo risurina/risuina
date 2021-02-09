@@ -1,3 +1,5 @@
+const path = require('path');
+
 module.exports = {
   siteMetadata: {
     title: "My portfolio",
@@ -25,5 +27,18 @@ module.exports = {
       },
       __key: "images",
     },
+    {
+      resolve: `gatsby-plugin-alias-imports`,
+      options: {
+        alias: {
+          "components": path.resolve(__dirname, 'src/components')
+        },
+        extensions: [
+          "js",
+          "tsx",
+        ],
+      }
+    }
+
   ],
 };
