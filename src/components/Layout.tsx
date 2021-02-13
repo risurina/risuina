@@ -1,8 +1,8 @@
 import React, { ReactElement } from 'react';
 import Navbar from 'components/Navbar';
-import Footer from "components/Footer";
+import Footer from 'components/Footer';
 
-const Layout = ({ children }: {children: ReactElement}): ReactElement => {
+const Layout = ({ children }: { children: ReactElement }): ReactElement => {
   return (
     <div>
       {/** Navigation  */}
@@ -17,6 +17,6 @@ const Layout = ({ children }: {children: ReactElement}): ReactElement => {
       */}
     </div>
   );
-}
+};
 
 export default Layout;

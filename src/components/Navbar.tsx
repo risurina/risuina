@@ -18,6 +18,6 @@ const Navbar = (): ReactElement => {
       </div>
     </div>
   );
-}
+};
 
 export default Navbar;

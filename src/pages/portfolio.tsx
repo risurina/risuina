@@ -1,4 +1,4 @@
-import React, { ReactElement } from "react"
+import React, { ReactElement } from 'react';
 import Layout from 'components/Layout';
 
 const Portfolio = (): ReactElement => {
@@ -11,6 +11,6 @@ const Portfolio = (): ReactElement => {
       </div>
     </Layout>
   );
-}
+};
 
 export default Portfolio;

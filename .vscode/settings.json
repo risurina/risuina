@@ -1,0 +1,10 @@
+{
+  "files.autoSave": "onWindowChange",
+  "prettier.jsxSingleQuote": true,
+  "prettier.jsxBracketSameLine": true,
+  "prettier.singleQuote": true,
+  "prettier.configPath": ".prettierrc.json",
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "html.format.endWithNewline": true
+}

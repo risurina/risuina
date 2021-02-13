@@ -1,6 +1,5 @@
-import React, { ReactElement } from "react"
+import React, { ReactElement } from 'react';
 import Layout from 'components/Layout';
-import CodingImage from 'assets/images/coding.svg';
 
 const IndexPage = (): ReactElement => {
   return (
@@ -20,7 +19,8 @@ const IndexPage = (): ReactElement => {
             <div className="rounded-md shadow">
               <a
                 href="#"
-                className="w-full flex items-center justify-center px-8 py-2 border border-transparent text-base font-medium rounded-md text-white bg-gray-900 hover:bg-gray-800 md:py-3 md:text-lg md:px-10">
+                className="w-full flex items-center justify-center px-8 py-2 border border-transparent text-base font-medium rounded-md text-white bg-gray-900 hover:bg-gray-800 md:py-3 md:text-lg md:px-10"
+              >
                 My Portfolio
               </a>
             </div>
@@ -29,6 +29,6 @@ const IndexPage = (): ReactElement => {
       </main>
     </Layout>
   );
-}
+};
 
-export default IndexPage
+export default IndexPage;
