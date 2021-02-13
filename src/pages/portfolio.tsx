@@ -6,7 +6,7 @@ const Portfolio = (): ReactElement => {
     <Layout>
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="flex flex-col">
-          <span>Portfolio</span>
+          <h1>My Projects</h1>
         </div>
       </div>
     </Layout>
